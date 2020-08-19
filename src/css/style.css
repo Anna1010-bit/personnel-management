@@ -54,7 +54,7 @@
 }
 
 @font-face {
-	font-family: 'Montserrat';
+	font-family: 'Montserrat-SemiBold';
 	src: url('../fonts/Montserrat-SemiBold.eot');
 	src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
 		url('../fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
@@ -76,7 +76,7 @@
 }
 
 @font-face {
-	font-family: 'Montserrat';
+	font-family: 'Montserrat-ExtraBoldItalic';
 	src: url('../fonts/Montserrat-ExtraBoldItalic.eot');
 	src: local('Montserrat ExtraBold Italic'), local('Montserrat-ExtraBoldItalic'),
 		url('../fonts/Montserrat-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
@@ -87,7 +87,7 @@
 }
 
 @font-face {
-	font-family: 'Montserrat';
+	font-family: 'Montserrat-Italic';
 	src: url('../fonts/Montserrat-Italic.eot');
 	src: local('Montserrat Italic'), local('Montserrat-Italic'),
 		url('../fonts/Montserrat-Italic.eot?#iefix') format('embedded-opentype'),
@@ -202,6 +202,15 @@
 
 .modal-body-text_important {
 	font-family: 'Montserrat-Bold';
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.card-read, .card-read:hover {
+	color: black;
+	font-family: 'Montserrat-ExtraBoldItalic';
 }
 
 h1 {
